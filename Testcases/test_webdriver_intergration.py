@@ -6,6 +6,8 @@ import pytest
 import allure
 
 remote_url = "http://localhost:4444/wd/hub"  # This is the hub url
+
+
 def get_data():
     return [
         ("standard_user", "secret_sauce"),
